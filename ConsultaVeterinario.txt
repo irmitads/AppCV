@@ -1,0 +1,1 @@
+SELECT idVeterinario, MAX(COUNT(*)) as NumCitas FROM Citas GROUP BY idVeterinario HAVING fecha '20201101' AND '20201101'
